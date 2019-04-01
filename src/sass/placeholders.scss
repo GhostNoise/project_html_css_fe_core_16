@@ -1,0 +1,15 @@
+%section-rules {
+  margin: 0 auto;
+  width: 300px;
+  padding: 0 10px;
+
+  @media (min-width: 768px) {
+    width: 640px;
+    padding: 0;
+  }
+
+  @media (min-width: 1200px) {
+    width: 715px;
+    padding: 0;
+  }
+}
