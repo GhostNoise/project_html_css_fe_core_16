@@ -62,8 +62,6 @@
   font-style: normal;
   line-height: 1.4;
   background-color: $accent-blue-color;
-
-  
 }
 
 .section02__list--text {
@@ -81,7 +79,6 @@
   .section02 {
     width: 640px;
     padding: 0;
-    
   }
 
   .section02__page {
@@ -125,7 +122,6 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     position: relative;
-    
   }
 
   .section02__list::after {
@@ -135,7 +131,7 @@
     position: absolute;
     bottom: -5px;
     right: -8px;
-    background-image: url("../images/768/section02_(diagrama768).png");
+    background-image: url('../images/768/section02_(diagrama768).png');
     background-repeat: no-repeat;
   }
 
@@ -174,10 +170,52 @@
   }
 }
 @media (min-width: 1200px) {
-  width: 715px;
-  padding: 0;
+  .section02 {
+    width: 715px;
+    padding: 0;
+  }
 
+  .section02__headline {
+    font-size: 30px;
+    width: 232px;
+    font-family: 'Acrom';
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .section02_text {
+    font-size: 10px;
+    width: 134px;
+  }
+
+  .section__facts {
+    width: 270px;
+    margin: 0;
+  }
+
+  .section02__list--facts {
+    width: 188px;
+    font-size: 19px;
+    font-family: "Acrom";
+    font-weight: 700;
+    font-style: normal;
+
+  }
+
+  .section02__list--fact {
+    font-size: 9px;
+    width: 160px;
+  }
+
+  .section02__list--text {
+    font-size: 9px;
+  }
+
+  .section02__list--text-width {
+    width: 170px;
+  }
   
-
-
+  .section02__list::after {
+    right: 8px;
+  }
 }
