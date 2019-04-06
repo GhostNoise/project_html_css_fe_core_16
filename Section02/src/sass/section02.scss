@@ -81,11 +81,13 @@
   .section02 {
     width: 640px;
     padding: 0;
+    
   }
 
   .section02__page {
     display: flex;
     justify-content: space-between;
+    position: relative;
   }
 
   .section__facts {
@@ -122,6 +124,19 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    position: relative;
+    
+  }
+
+  .section02__list::after {
+    content: '';
+    width: 215px;
+    height: 110px;
+    position: absolute;
+    bottom: -5px;
+    right: -8px;
+    background-image: url("../images/768/section02_(diagrama768).png");
+    background-repeat: no-repeat;
   }
 
   .section02__list--facts {
@@ -137,14 +152,32 @@
     width: 140px;
     font-size: 8px;
     background: none;
+    margin: 8px 0 10px;
 
     & > span {
       background-color: $accent-blue-color;
     }
   }
 
+  .section02__list--fact-width {
+    width: 150px;
+  }
+
   .section02__list--text {
     font-size: 8px;
     width: 124px;
+    margin-bottom: 24px;
   }
+
+  .section02__list--text-width {
+    width: 160px;
+  }
+}
+@media (min-width: 1200px) {
+  width: 715px;
+  padding: 0;
+
+  
+
+
 }
