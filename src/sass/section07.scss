@@ -1,6 +1,14 @@
 .section07 {
   @extend %section-rules;
   padding-top: 19px;
+  
+  @media (min-width: 768px) {
+    .section07 {
+      padding-top: 36px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
 
 }
 
@@ -79,7 +87,6 @@
     height: 8px;
     background-color: $primary-black-color;
   }
-
 }
 
 .section07__text--descr2 {
