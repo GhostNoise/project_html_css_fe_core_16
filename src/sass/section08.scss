@@ -16,15 +16,26 @@
     width: 192px;
     background-color: $primary-black-color;
     color: $primary-white-color;
-    
+    position: relative;
+}
+.section08__title--black::after {
+    content: 'STAP';
+    transform: rotate(90deg);
+    position: absolute;
+    color: #f7f7f7;
+    font-family: 'Acrom';
+    font-size: 53px;
+    font-weight: 400;
+    z-index: -2;
+    left: 0px;
+    top: 43px;
 }
 .section08__title--white {
-    background-color: $primary-white-color;
     color: $primary-black-color;
 }
 .section08__title--position {
     text-align: center;
- }
+}
 .section__title--font {
     font-family: 'Acrom';
     font-size: 18px;
@@ -32,8 +43,6 @@
     text-transform: uppercase;
 }
 .section08__text {
-    // margin: 0 auto;
-    // width: 256px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,6 +50,17 @@
     font-size: 13.5px;
     font-weight: 500;
     margin-bottom: 50px;
+    position: relative;
+}
+.section08__text::after {
+    content: '4';
+    position: absolute;
+    color: #f7f7f7;
+    font-family: 'Acrom';
+    font-size: 208px;
+    font-weight: 400;
+    z-index: -1;
+    left: -30px;
 }
 .section08__text--element {
     width: 20px;
@@ -52,23 +72,13 @@
     padding: 0;
     padding-left: 16px;
 }
-// .section08__text--before::before {
-//     content: "";
-//     // position: absolute;
-//     // left: -45px;
-//     // top: 10px;
-//     width: 20px;
-//     height: 2px;
-//     background: $primary-black-color;
-// }
-
 .section08__second-container {
     margin: 0 auto;
     width: 354px;
 }
 .section08__list {
     margin: 0 auto;
-    margin-left: 50px;
+    margin-left: 30px;
     list-style: none;
     padding: 0;
     margin-bottom: 45px;
@@ -120,7 +130,6 @@
 .section08__item-title {   
     margin: 0 auto;
     padding: 0;
-    // width: 228px;
     font-family: 'Acrom';
     font-size: 13.5px;
     font-weight: 800;
@@ -136,13 +145,10 @@
 }
 
 .section08__final-text {
-    // margin: 0 auto;
     display: flex;
     flex-direction: row;
     padding: 0;
-    // width: 353px;
     margin-bottom: 20px;
-    // margin-left: 30px;
 }
 .section08__final-text--font {
     font-family: 'Acrom';
