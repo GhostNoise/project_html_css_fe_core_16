@@ -8,18 +8,11 @@
 }
 .section08__title {
     margin: 0 auto;
-}
-.section__title--bottom {
-    margin-bottom: 24px;
-}
-.section08__title--black {
-    width: 192px;
-    background-color: $primary-black-color;
-    color: $primary-white-color;
+    width: 196px;
     position: relative;
 }
-.section08__title--black::after {
-    content: 'STAP';
+.section08__title::after {
+    content: 'STEP';
     transform: rotate(90deg);
     position: absolute;
     color: #f7f7f7;
@@ -30,11 +23,13 @@
     left: 0px;
     top: 43px;
 }
-.section08__title--white {
-    color: $primary-black-color;
+
+.section__title--bottom {
+    margin-bottom: 24px;
 }
-.section08__title--position {
-    text-align: center;
+.section08__title--white {
+    background-color: #000;
+    color: #fff;
 }
 .section__title--font {
     font-family: 'Acrom';
@@ -109,7 +104,6 @@
     width: 35px;
     height: 24px;   
     overflow: hidden;
-
 }
 .section08__list-item::after {
     content: '';
@@ -157,5 +151,69 @@
     color: #ff6b08;
     padding-left: 9px;
 }
+// TABLET VERSION
+@media (min-width: 768px) {
+    .section08 {
+        width: 640px;
+        padding: 0;
+    }
+    .section08__first-container {
+        margin: 0;
+        width: 196px;
+    }
+    .section08__title {
+        margin: 0;
+        position: relative;
+    }
+    // .section08__title::after {
+    //     content: 'STEP';
+    //     transform: rotate(90deg);
+    //     position: absolute;
+    //     color: #f7f7f7;
+    //     font-family: 'Acrom';
+    //     font-size: 53px;
+    //     font-weight: 400;
+    //     z-index: -2;
+    //     left: 0px;
+    //     top: 43px;
+    // }
+    .section__title--bottom {
+        margin-bottom: 0px;
+        height: 90px;
+    }
+    .section08__title--position {
+        text-align: center;
+    }
+    .section__title--font {
+        font-family: 'Acrom';
+        font-size: 27px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .section08__text {
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        font-size: 9px;
+        margin-bottom: 0px;
+        position: relative;
+    }
+    // .section08__text::after {
+    //     content: '4';
+    //     position: absolute;
+    //     color: #f7f7f7;
+    //     font-family: 'Acrom';
+    //     font-size: 208px;
+    //     font-weight: 400;
+    //     z-index: -1;
+    //     left: -30px;
+    // }
+    .section08__text--element {
+        width: 28px;
+        height: 3px;
+    }
+    .section08__text--before {
+        padding-left: 18px;
+    }
 
-
+  }
