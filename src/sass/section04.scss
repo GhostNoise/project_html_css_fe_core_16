@@ -1,7 +1,7 @@
 .ordinary {
   box-sizing: border-box;
   @extend %section-rules;
-  padding: 15px 0 28px 0;
+  margin-bottom: 28px;
   font-family: 'Acrom';
   color: $primary-black-color;
 
@@ -181,7 +181,7 @@
 
 @media (min-width: 768px) {
   .ordinary {
-    padding: 54px 0 60px 0;
+    margin-bottom: 60px;
 
     &-wrapper {
       display: flex;
@@ -294,7 +294,7 @@
 
 @media (min-width: 1200px) {
   .ordinary {
-    padding: 60px 0 84px 0;
+    margin-bottom: 84px;
 
     &__title {
       font-size: 30px;
