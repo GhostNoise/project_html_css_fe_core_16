@@ -4,19 +4,19 @@
   padding: 20px 0 44px 0;
 }
 
-.top-block__img {
+.video-block__img {
   margin-bottom: 26px;
 }
 
-.top-block__text {
+.video-block__text {
   display: none;
 }
 
-.bottom-block {
+.instructions-overlay {
   margin: 0 auto;
 }
 
-.bottom-block__headline {
+.instructions-overlay__headline {
   margin: 0 auto 30px auto;
   width: 288px;
   font-family: 'Acrom';
@@ -27,22 +27,22 @@
   text-transform: uppercase;
 }
 
-.skills {
+.instructions {
   margin: 0 auto 50px auto;
   width: 300px;
 }
 
-.skills-item {
+.instructions-item {
   position: relative;
   padding-left: 30px;
   width: 300px;
 }
 
-.skills-item:not(:last-child) {
+.instructions-item:not(:last-child) {
   margin-bottom: 24px;
 }
 
-.skills-icon-num::before {
+.instructions-icon-num::before {
   position: absolute;
   left: 0;
   top: 2px;
@@ -54,31 +54,31 @@
   background-repeat: no-repeat;
 }
 
-.skills-icon-num--001::before {
-  background-image: url(../images/480/section13_slills001.png);
+.instructions-icon-num--001::before {
+  background-image: url(../images/480/section09_instructions001.png);
 }
 
-.skills-icon-num--002::before {
-  background-image: url(../images/480/section13_slills002.png);
+.instructions-icon-num--002::before {
+  background-image: url(../images/480/section09_instructions002.png);
 }
 
-.skills-icon-num--003::before {
-  background-image: url(../images/480/section13_slills003.png);
+.instructions-icon-num--003::before {
+  background-image: url(../images/480/section09_instructions003.png);
 }
 
-.skills-icon-num--004::before {
-  background-image: url(../images/480/section13_slills004.png);
+.instructions-icon-num--004::before {
+  background-image: url(../images/480/section09_instructions004.png);
 }
 
-.skills-icon-num--005::before {
-  background-image: url(../images/480/section13_slills005.png);
+.instructions-icon-num--005::before {
+  background-image: url(../images/480/section09_instructions005.png);
 }
 
-.skills-icon-num--006::before {
-  background-image: url(../images/480/section13_slills006.png);
+.instructions-icon-num--006::before {
+  background-image: url(../images/480/section09_instructions006.png);
 }
 
-.skills-item__title {
+.instructions-item__title {
   margin-bottom: 6px;
   font-family: 'Acrom';
   font-weight: 700;
@@ -87,7 +87,7 @@
   color: $primary-black-color;
 }
 
-.skills-item__text {
+.instructions-item__text {
   font-family: 'Acrom';
   font-weight: 400;
   font-size: 13.5px;
@@ -119,7 +119,7 @@
     height: 13px;
     left: 0;
     top: 0;
-    background-image: url(../images/480/slash.png);
+    background-image: url(../images/480/section09_slash.png);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -154,22 +154,22 @@
     padding: 34px 0 30px 0;
   }
 
-  .top-block {
+  .video-block {
     display: flex;
     justify-content: space-between;
     margin: 0 0 38px 0;
     width: 100%;
   }
   
-  .top-block__img {
+  .video-block__img {
     margin: 0;
   }
 
-  .top-block__text {
+  .video-block__text {
     display: block;
   }
 
-  .top-block__headline {
+  .video-block__headline {
     margin: 0 0 24px 0;
     width: 274px;
     font-family: 'Acrom';
@@ -181,11 +181,11 @@
     text-align: left;
   }
   
-  .top-block__bracket {
+  .video-block__bracket {
     font-weight: 700;
   }
   
-  .top-block__descr {
+  .video-block__descr {
     position: relative;
     padding-left: 46px;
     width: 186px;
@@ -207,72 +207,73 @@
     }
   }
 
-  .bottom-block {
+  .instructions-overlay {
     display: flex;
     justify-content: space-between;
     width: 640px;
   }
   
-  .bottom-block__headline {
+  .instructions-overlay__headline {
     width: 132px;
     margin: 0;
     font-size: 8.97px;
     line-height: 16.82px;
   }
 
-  .skills {
+  .instructions {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 14px;
     width: 480px;
   }
   
-  .skills-item {
+  .instructions-item {
     width: 150px;
   }
 
-  .skills-item:nth-last-child(-n + 3) {
+  .instructions-item:nth-last-child(-n + 3) {
     margin-bottom: 0;
   }
 
-  .skills-item__title {
+  .instructions-item__title {
     font-size: 8.97px;
     line-height: 11.78px;
   }
   
-  .skills-item__text {
+  .instructions-item__text {
     font-size: 7.85px;
     line-height: 11.78px;
   }
 
-  .skills-icon-num::before {
+  .instructions-icon-num::before {
     top: 0;
     width: 8px;
     height: 24px;
   }
   
-  .skills-icon-num--001::before {
-    background-image: url(../images/768/section13_slills001.png);
+  .instructions-icon-num--001::before {
+    background-image: url(../images/768/section09_instructions001.png);
   }
   
-  .skills-icon-num--002::before {
-    background-image: url(../images/768/section13_slills002.png);
+  .instructions-icon-num--002::before {
+    background-image: url(../images/768/section09_instructions002.png);
   }
   
-  .skills-icon-num--003::before {
-    background-image: url(../images/768/section13_slills003.png);
+  .instructions-icon-num--003::before {
+    background-image: url(../images/768/section09_instructions003.png);
   }
   
-  .skills-icon-num--004::before {
-    background-image: url(../images/768/section13_slills004.png);
+  .instructions-icon-num--004::before {
+    background-image: url(../images/768/section09_instructions004.png);
   }
   
-  .skills-icon-num--005::before {
-    background-image: url(../images/768/section13_slills005.png);
+  .instructions-icon-num--005::before {
+    background-image: url(../images/768/section09_instructions005.png);
   }
   
-  .skills-icon-num--006::before {
-    background-image: url(../images/768/section13_slills006.png);
+  .instructions-icon-num--006::before {
+    background-image: url(../images/768/section09_instructions006.png);
   }
 
   .button-overlay {
@@ -295,7 +296,7 @@
       width: 14px;
       height: 20px;
       top: 2px;
-      background-image: url(../images/768/slash.png);
+      background-image: url(../images/768/section09_slash.png);
     }
   }
   
@@ -311,18 +312,18 @@
     padding: 38px 0 64px 0;
   }
 
-  .top-block__text {
+  .video-block__text {
     width: 348px;
   }
 
-  .top-block__headline {
+  .video-block__headline {
     margin: 0 0 24px 0;
     width: 286px;
     font-size: 30px;
     line-height: 37.5px;
   }
 
-  .top-block__descr {
+  .video-block__descr {
     width: 186px;
     font-size: 10px;
     line-height: 15px;
@@ -332,30 +333,30 @@
     }
   }
 
-  .bottom-block {
+  .instructions-overlay {
     width: 714px;
   }
   
-  .bottom-block__headline {
+  .instructions-overlay__headline {
     width: 148px;
     font-size: 10px;
     line-height: 18.75px;
   }
 
-  .skills {
+  .instructions {
     width: 530px;
   }
   
-  .skills-item {
+  .instructions-item {
     width: 164px;
   }
 
-  .skills-item__title {
+  .instructions-item__title {
     font-size: 10px;
     line-height: 13.13px;
   }
   
-  .skills-item__text {
+  .instructions-item__text {
     font-size: 8.75px;
     line-height: 13.13px;
   }
@@ -372,7 +373,7 @@
     &::before {
       width: 16px;
       height: 22px;
-      background-image: url(../images/1200/slash.png);
+      background-image: url(../images/1200/section09_slash.png);
     }
   }
   
