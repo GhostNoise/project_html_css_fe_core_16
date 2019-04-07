@@ -23,7 +23,7 @@
 .section01__header__img {
   margin-bottom: 40px;
   padding: 0 10px;
-  width: 100%
+  width: 100%;
 }
 
 .section01__header__picture {
@@ -282,6 +282,10 @@
 }
 
 @media (min-width: 1200px) {
+  .section01 {
+    margin-bottom: 110px;
+  }
+
   .section01__header {
     margin-right: 88px;
   }
