@@ -1,7 +1,7 @@
 .section09 {
   @extend %section-rules;
 
-  padding: 20px 0 34px 0;
+  padding: 20px 0 44px 0;
 }
 
 .top-block__img {
@@ -25,7 +25,7 @@
 }
 
 .skills {
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   width: 300px;
 }
 
@@ -90,4 +90,57 @@
   font-size: 13.5px;
   line-height: 19.5px;
   color: $secondary-black-color;
+}
+
+.button-overlay {
+  text-align: center;
+}
+
+.button-overlay__text {
+  margin: 0 auto 18px auto;
+  width: 346px;
+  position: relative;
+  padding-left: 26px;
+  font-family: 'Acrom';
+  font-weight: 500;
+  font-size: 13.5px;
+  line-height: 19.5px;
+  color: $orange-color;
+  text-align: left;
+
+  &::before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 9px;
+    height: 13px;
+    left: 0;
+    top: 0;
+    background-image: url(../images/480/slash.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.button-overlay__btn {
+  display: inline-block;
+  padding: 14px 26px;
+  font-family: 'Acrom';
+  font-weight: 900;
+  font-size: 10.87px;
+  line-height: 17.79px;
+  color: $primary-white-color;
+  background-color: $orange-color;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: $accent-blue-color;
+  }
+
+  &:active {
+    background-color: $active-color;
+  }
 }
