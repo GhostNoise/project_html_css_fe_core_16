@@ -82,6 +82,12 @@
   }
 }
 
+@media (min-width: 480px) {
+  .warning {
+    margin-bottom: 65px;
+  }
+}
+
 @media (min-width: 768px) {
   .warning {
     padding: 0 17px 0 40px;
