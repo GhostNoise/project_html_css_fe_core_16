@@ -5,12 +5,19 @@
   margin-bottom: 50px;
 }
 
+.section__facts {
+  margin-bottom: 50px;
+}
+
 .section02__headline {
   margin: 0;
   padding: 0 0 50px;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
+  font-family: 'Acrom';
+  font-weight: 700;
+  font-style: normal;  
 }
 
 .section02_text {
@@ -22,6 +29,9 @@
   font-size: 13.5px;
   line-height: 20px;
   font-family: 'Acrom';
+  font-weight: 500;
+  font-style: normal;   
+  
 }
 
 .section02_text::before {
@@ -42,6 +52,7 @@
   font-family: 'Acrom';
   font-weight: 700;
   font-style: normal;
+  margin-left: 15px;
 }
 
 .section02__list--facts::before {
@@ -94,7 +105,7 @@
   }
 
   .section02__headline {
-    width: 180px;
+    width: 182px;
     font-size: 27px;
     text-align: left;
     padding: 0 0 30px;
