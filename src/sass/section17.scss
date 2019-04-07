@@ -1,10 +1,6 @@
 .section17 {
   @extend %section-rules;
 
-  &__wrraper {
-    margin-bottom: 40px;
-  }
-
   &__text {
     font-family: 'Acrom';
     text-align: center;
@@ -170,6 +166,12 @@
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
+  }
+}
+
+@media (min-width: 480px) {
+  .section17 {
+    margin-bottom: 70px;
   }
 }
 
