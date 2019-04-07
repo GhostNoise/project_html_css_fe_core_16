@@ -1,6 +1,10 @@
 .section06 {
   @extend %section-rules;
   margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 40px;
+  }
 }
 
 .section06__first {

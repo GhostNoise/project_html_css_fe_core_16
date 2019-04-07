@@ -338,6 +338,7 @@
 @media (min-width: 768px) {
   .text--nowrap {
     flex-wrap: nowrap;
+    padding-bottom: 40px;
   }
 
   .text__item:last-child {

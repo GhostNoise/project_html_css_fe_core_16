@@ -3,6 +3,10 @@
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
+  
+  @media (min-width: 768px) {
+    margin-bottom: 40px;
+  }
 }
 
 .section07__description {

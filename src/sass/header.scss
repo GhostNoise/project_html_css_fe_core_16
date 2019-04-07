@@ -9,8 +9,7 @@
   width: 446px;
   height: 612px;
   margin: 0 auto;
-  background:
-    url(../images/480/header_bg-goit.png),
+  background: url(../images/480/header_bg-goit.png),
     url(../images/480/header_bg-center-color.png);
   background-position: 50% 254px, 50% 0;
   background-repeat: no-repeat;
@@ -43,11 +42,9 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .header__bg {
-    background:
-      url(../images/480/header_bg-goit@2x.png) 2x,
+    background: url(../images/480/header_bg-goit@2x.png) 2x,
       url(../images/480/header_bg-center-color.png) 2x;
   }
 }
@@ -157,25 +154,20 @@
   }
 }
 
-
-
-// min-width:768px
-
 @media (min-width: 768px) {
   .header {
     min-width: 640px;
     height: 474px;
     background: none;
     background: $main-bg-color;
-    margin-bottom: 160px;
+    margin-bottom: 105px;
   }
 
   .header__bg {
     width: 640px;
     height: 474px;
     margin: 0 auto;
-    background:
-      url(../images/768/header_bg-two-boys.png),
+    background: url(../images/768/header_bg-two-boys.png),
       url(../images/768/header_numbers.png),
       url(../images/768/header_bg-goit.png),
       url(../images/768/header_bg-center-color.png);
@@ -192,14 +184,11 @@
       width: 219px;
       height: 100%;
     }
-
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .header__bg {
-      background:
-        url(../images/768/header_bg-two-boys@2x.png) 2x,
+      background: url(../images/768/header_bg-two-boys@2x.png) 2x,
         url(../images/768/header_numbers@2x.png) 2x,
         url(../images/768/header_bg-goit@2x.png) 2x,
         url(../images/768/header_bg-center-color.png) 2x;
@@ -332,11 +321,9 @@
     position: center;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .header__facebook {
-      background:
-        url(../images/768/header_social-facebook@2x.png) 2x;
+      background: url(../images/768/header_social-facebook@2x.png) 2x;
     }
   }
 
@@ -349,20 +336,16 @@
     position: center;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .header__twitter {
-      background:
-        url(../images/768/header_social-twitter@2x.png) 2x;
+      background: url(../images/768/header_social-twitter@2x.png) 2x;
     }
   }
 }
 
-
 // min-width: 1200px
 
 @media (min-width: 1200px) {
-
   .header {
     min-width: 1200px;
     height: 529px;
@@ -374,8 +357,7 @@
   .header__bg {
     width: 1126px;
     height: 530px;
-    background:
-      url(../images/768/header_bg-two-boys.png),
+    background: url(../images/768/header_bg-two-boys.png),
       url(../images/1200/header_numbers.png),
       url(../images/1200/header_bg-goit.png),
       url(../images/1200/header_bg-center-color.png);
@@ -396,11 +378,9 @@
     }
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .header__bg {
-      background:
-        url(../images/768/header_bg-two-boys@2x.png) 2x,
+      background: url(../images/768/header_bg-two-boys@2x.png) 2x,
         url(../images/1200/header_numbers@2x.png) 2x,
         url(../images/1200/header_bg-goit@2x.png) 2x,
         url(../images/1200/header_bg-center-color.png) 2x;
@@ -499,11 +479,9 @@
     position: center;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .header__facebook {
-      background:
-        url(../images/1200/header_social-facebook@2x.png) 2x;
+      background: url(../images/1200/header_social-facebook@2x.png) 2x;
     }
   }
 
@@ -516,11 +494,9 @@
     position: center;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .header__twitter {
-      background:
-        url(../images/1200/header_social-twitter@2x.png) 2x;
+      background: url(../images/1200/header_social-twitter@2x.png) 2x;
     }
   }
 }
