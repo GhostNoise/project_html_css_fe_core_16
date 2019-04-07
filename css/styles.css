@@ -67,7 +67,7 @@ ul {
 .header {
   min-width: 480px;
   height: 612px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   background: #181c27;
 }
 
@@ -243,7 +243,7 @@ ul {
 .section01__header__text {
   color: #3f4144;
   padding: 0 46px 26px 10px;
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 13px;
   font-weight: 500;
   line-height: 19.5px;
@@ -252,6 +252,7 @@ ul {
 .section01__header__img {
   margin-bottom: 40px;
   padding: 0 10px;
+  width: 100%;
 }
 
 .section01__header__picture {
@@ -264,7 +265,7 @@ ul {
   position: absolute;
   opacity: 0.05;
   color: #000000;
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 105px;
   font-weight: 900;
   line-height: 200px;
@@ -280,7 +281,7 @@ ul {
   position: relative;
   color: #000000;
   padding: 0 46px 12px 126px;
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 15px;
   font-weight: 800;
   line-height: 16.43px;
@@ -299,7 +300,7 @@ ul {
 
 .section01__header__title {
   padding: 0 94px 0 86px;
-  font-family: "Acrom";
+  font-family: 'Acrom';
   color: #000000;
   font-size: 20px;
   font-weight: 700;
@@ -316,7 +317,7 @@ ul {
 .section01__wrap-title--bold {
   padding-bottom: 18px;
   color: #000000;
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 13px;
   font-weight: 900;
   line-height: 19.5px;
@@ -327,7 +328,7 @@ ul {
   position: relative;
   padding: 0 48px 24px;
   color: #3f4144;
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 13px;
   font-weight: 500;
   line-height: 19.5px;
@@ -349,7 +350,7 @@ ul {
 }
 
 .section01__features__text--orange {
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-weight: 500;
   line-height: 19.5px;
   padding: 0 88px 0;
@@ -366,12 +367,12 @@ ul {
 }
 
 .section__facts {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .section02__headline {
   margin: 0;
-  padding: 0 0 50px;
+  padding: 0 0 40px;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -533,6 +534,7 @@ ul {
   text-transform: uppercase;
   line-height: 1.4;
   margin-bottom: 20px;
+  padding-left: 20px;
 }
 
 .section03__primary--texts {
@@ -544,6 +546,7 @@ ul {
   font-style: normal;
   line-height: 1.4;
   margin-bottom: 30px;
+  padding-left: 20px;
 }
 
 .section03__primary--text::before {
@@ -551,7 +554,7 @@ ul {
   position: absolute;
   border: 3px solid #000000;
   display: inline-block;
-  left: -15px;
+  left: 1px;
   top: 8px;
 }
 
@@ -1383,7 +1386,7 @@ ul {
 .wrapper-head--title {
   color: #000000;
   padding: 0 0 16px 52px;
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -1392,8 +1395,8 @@ ul {
 
 .wrapper-head--subtitle {
   color: #000000;
-  padding: 0 108px 12px 90px;
-  font-family: "Acrom";
+  padding: 0 21px 12px 90px;
+  font-family: 'Acrom';
   font-size: 14px;
   font-weight: 600;
   line-height: 19.5px;
@@ -1402,8 +1405,8 @@ ul {
 
 .wrapper-head--text {
   color: #3f4144;
-  padding: 0 108px 12px 90px;
-  font-family: "Acrom";
+  padding: 0 21px 12px 90px;
+  font-family: 'Acrom';
   font-size: 14px;
   font-weight: 500;
   line-height: 19.5px;
@@ -1411,9 +1414,9 @@ ul {
 
 .wrapper-head--text__bold {
   position: relative;
-  padding: 0  50px 38px 130px;
+  padding: 0 50px 38px 130px;
   color: #000000;
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 14px;
   font-weight: 500;
   line-height: 19.5px;
@@ -1466,7 +1469,7 @@ ul {
   display: flex;
   justify-content: center;
   flex-flow: wrap;
-  font-family: "Acrom";
+  font-family: 'Acrom';
 }
 
 .features {
@@ -1576,7 +1579,7 @@ ul {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-family: "Acrom";
+  font-family: 'Acrom';
   margin-bottom: 70px;
 }
 
@@ -2386,10 +2389,6 @@ ul {
   text-transform: uppercase;
 }
 
-.section17__wrraper {
-  margin-bottom: 40px;
-}
-
 .section17__text {
   font-family: 'Acrom';
   text-align: center;
@@ -2565,7 +2564,7 @@ ul {
 }
 
 .section18__first--text1 {
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -2577,7 +2576,7 @@ ul {
 
 .section18__first--text2 {
   position: relative;
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 15px;
   font-weight: bold;
   color: #000000;
@@ -2586,7 +2585,7 @@ ul {
 }
 
 .section18__first--text2::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 14px;
   height: 3px;
@@ -2605,7 +2604,7 @@ ul {
 }
 
 .section18__first--button--text {
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 10px;
   font-weight: bold;
   text-transform: uppercase;
@@ -2618,7 +2617,7 @@ ul {
 }
 
 .section18__second--text1 {
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -2627,30 +2626,30 @@ ul {
 }
 
 .section18__second--text2 {
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 13px;
   font-weight: bold;
   color: #000000;
   line-height: 19px;
   padding-right: 33px;
-  padding-bottom: 32px;
+  padding-bottom: 25px;
 }
 
 .section18__second--text3 {
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 13px;
   font-weight: bold;
   color: #3f4144;
   padding-right: 5px;
-  padding-bottom: 32px;
+  padding-bottom: 25px;
 }
 
 .section18__second--text4 {
-  font-family: "Acrom";
+  font-family: 'Acrom';
   font-size: 13px;
   font-weight: bold;
   color: #3f4144;
-  padding-bottom: 28px;
+  padding-bottom: 20px;
 }
 
 .section18__second--text4 > span {
@@ -2816,9 +2815,53 @@ ul {
     padding: 0 10px;
   }
 
+  .section01 {
+    margin-bottom: 70px;
+  }
+
+  .ordinary {
+    margin-bottom: 65px;
+  }
+
+  .warning {
+    margin-bottom: 65px;
+  }
+
+  .section06 {
+    margin-bottom: 20px;
+  }
+
+  .section09 {
+    margin-bottom: 75px;
+  }
+
+  .section11 {
+    margin-bottom: 40px;
+  }
+
+  .section12 {
+    margin-bottom: 45px;
+  }
+
+  .section13 {
+    margin-bottom: 55px;
+  }
+
+  .section15 {
+    margin-bottom: 45px;
+  }
+
   .section16 {
     width: 450px;
     margin-bottom: 45px;
+  }
+
+  .section17 {
+    margin-bottom: 70px;
+  }
+
+  .section18 {
+    margin-bottom: 40px;
   }
 }
 
@@ -2857,7 +2900,7 @@ ul {
     height: 474px;
     background: none;
     background: #181c27;
-    margin-bottom: 160px;
+    margin-bottom: 105px;
   }
 
   .header__bg {
@@ -3325,7 +3368,7 @@ ul {
   .section03__title--text {
     font-size: 9px;
     width: 160px;
-    margin: 0 30px 50px;
+    margin: 0 30px 35px;
   }
 
   .section03__title--text::before {
@@ -3341,7 +3384,7 @@ ul {
 
   .section03__primary--texts {
     font-size: 8px;
-    width: 230px;
+    width: 235px;
     margin-bottom: 18px;
   }
 
@@ -3351,7 +3394,7 @@ ul {
   }
 
   .ordinary {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
   }
 
   .ordinary-wrapper {
@@ -3541,6 +3584,10 @@ ul {
     line-height: 11px;
   }
 
+  .section06 {
+    margin-bottom: 40px;
+  }
+
   .section06__first {
     display: flex;
     justify-content: space-between;
@@ -3618,6 +3665,10 @@ ul {
     width: 170px;
   }
 
+  .section07 {
+    margin-bottom: 40px;
+  }
+
   .section07__description {
     margin: 0;
   }
@@ -3689,6 +3740,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 65px;
   }
 
   .section08__first-container {
@@ -3771,6 +3823,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 310px;
+    margin-bottom: 0;
   }
 
   .section08__list-item {
@@ -3827,7 +3880,7 @@ ul {
   }
 
   .section09 {
-    padding: 34px 0 30px 0;
+    padding: 0 0 30px 0;
   }
 
   .video-block {
@@ -3980,6 +4033,10 @@ ul {
     padding: 10px 14px;
     font-size: 6.17px;
     line-height: 10.09px;
+  }
+
+  .section10 {
+    margin-bottom: 20px;
   }
 
   .wrapper-head {
@@ -4225,7 +4282,7 @@ ul {
   .section12 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 34px;
+    margin-bottom: 75px;
   }
 
   .headline {
@@ -4272,7 +4329,7 @@ ul {
   }
 
   .section13 {
-    margin-bottom: 30px;
+    margin-bottom: 75px;
   }
 
   .top-block {
@@ -4392,6 +4449,7 @@ ul {
   .section14 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
   }
 
   .text {
@@ -4572,6 +4630,7 @@ ul {
 
   .text--nowrap {
     flex-wrap: nowrap;
+    padding-bottom: 40px;
   }
 
   .text__item:last-child {
@@ -4587,7 +4646,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: top;
-    margin-bottom: 40px;
+    margin-bottom: 85px;
   }
 
   .section16__descr {
@@ -4864,7 +4923,6 @@ ul {
   .section18__second--text2 {
     font-size: 9px;
     padding-left: 68px;
-    padding-bottom: 30px;
     padding-right: 16px;
   }
 
@@ -5131,6 +5189,10 @@ ul {
     position: center;
   }
 
+  .section01 {
+    margin-bottom: 110px;
+  }
+
   .section01__header {
     margin-right: 88px;
   }
@@ -5259,6 +5321,7 @@ ul {
   .section02 {
     width: 715px;
     padding: 0;
+    margin-bottom: 100px;
   }
 
   .section02__headline {
@@ -5374,7 +5437,7 @@ ul {
   }
 
   .ordinary {
-    margin-bottom: 84px;
+    margin-bottom: 100px;
   }
 
   .ordinary__title {
@@ -5460,7 +5523,7 @@ ul {
   }
 
   .warning {
-    margin-bottom: 122px;
+    margin-bottom: 110px;
     padding-right: 18px;
     padding-left: 42px;
   }
@@ -5585,6 +5648,7 @@ ul {
   .section08 {
     width: 715px;
     padding: 0;
+    margin-bottom: 65px;
   }
 
   .section08__first-container {
@@ -5799,6 +5863,10 @@ ul {
     line-height: 11.25px;
   }
 
+  .section10 {
+    margin-bottom: 40px;
+  }
+
   .wrapper-head {
     margin-bottom: 74px;
     width: 715px;
@@ -5920,7 +5988,7 @@ ul {
   }
 
   .section12 {
-    margin-bottom: 62px;
+    margin-bottom: 110px;
   }
 
   .headline {
@@ -5960,7 +6028,7 @@ ul {
   }
 
   .section13 {
-    margin-bottom: 64px;
+    margin-bottom: 110px;
   }
 
   .top-block__cost {
@@ -6020,6 +6088,14 @@ ul {
     line-height: 13.13px;
   }
 
+  .section14 {
+    margin-bottom: 110px;
+  }
+
+  .section15 {
+    margin-bottom: 110px;
+  }
+
   .text__header {
     width: 30%;
     font-size: 9px;
@@ -6030,7 +6106,7 @@ ul {
   }
 
   .section16 {
-    margin-bottom: 63px;
+    margin-bottom: 110px;
   }
 
   .section16__descr {
@@ -6118,6 +6194,7 @@ ul {
   .section17 {
     width: 715px;
     padding: 0;
+    margin-bottom: 110px;
   }
 
   .section17__text {
@@ -6161,6 +6238,7 @@ ul {
   .section18 {
     width: 715px;
     padding: 0;
+    margin-bottom: 110px;
   }
 
   .section18__wrraper {
