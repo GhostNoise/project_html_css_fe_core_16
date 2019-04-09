@@ -126,8 +126,12 @@
     margin-right: 35px;
   }
 
-  .image {
+  .section03__image {
     margin-bottom: 34px;
+
+    @media (max-width: 767px) {
+      max-width: 400px;
+    }
   }
 
   .section03__title--secondary {
