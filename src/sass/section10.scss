@@ -1,5 +1,7 @@
 .section10 {
-  @extend %section-rules;
+  margin: 0 auto;
+  width: 450px;
+  padding: 0;
 }
 
 .wrapper-head {
@@ -9,12 +11,8 @@
 }
 
 .wrapper-head--img {
-  // width: 445px;
-  // height: 160px;
   margin-bottom: 40px;
 }
-
-// styles for text
 
 .wrapper-head--title {
   color: $primary-black-color;
@@ -210,10 +208,12 @@
 }
 
 @media (min-width: 768px) {
-  .section10{
+  .section10 {
     margin-bottom: 20px;
+    width: 640px;
+    padding: 0;
   }
-  
+
   .wrapper-head {
     position: relative;
     margin-bottom: 60px;
@@ -361,7 +361,7 @@
     &::before {
       height: 50px;
       width: 42px;
-      background-image: url('../images/768/section10_tender768.png');
+      background-image: url(../images/768/section10_tender768.png);
     }
   }
 
@@ -369,7 +369,7 @@
     &::before {
       height: 50px;
       width: 58px;
-      background-image: url('../images/768/section10_tender768.png');
+      background-image: url(../images/768/section10_tender768.png);
     }
   }
 
@@ -396,10 +396,12 @@
 }
 
 @media (min-width: 1200px) {
-  .section10{
+  .section10 {
     margin-bottom: 40px;
+    width: 715px;
+    padding: 0;
   }
-  
+
   .wrapper-head {
     margin-bottom: 74px;
     width: 715px;

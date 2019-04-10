@@ -52,7 +52,7 @@
   font-family: 'Acrom';
   font-weight: 700;
   font-style: normal;
-  margin-left: 15px;
+ 
 }
 
 .section02__list--facts::before {
@@ -85,6 +85,10 @@
   text-align: left;
   color: $secondary-black-color;
   margin-bottom: 32px;
+}
+
+.section02__list{
+  padding-left: 15px;
 }
 
 @media (min-width: 768px) {
@@ -134,6 +138,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     position: relative;
+    padding-left: 0;
   }
 
   .section02__list::after {
