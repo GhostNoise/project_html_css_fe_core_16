@@ -412,7 +412,6 @@ ul {
   font-family: 'Acrom';
   font-weight: 700;
   font-style: normal;
-  margin-left: 15px;
 }
 
 .section02__list--facts::before {
@@ -447,10 +446,13 @@ ul {
   margin-bottom: 32px;
 }
 
+.section02__list {
+  padding-left: 15px;
+}
+
 .section03 {
   margin: 0 auto;
   width: 450px;
-  padding: 0 10px;
   margin-bottom: 60px;
 }
 
@@ -1371,6 +1373,12 @@ ul {
 
 .button-overlay__btn:active {
   background-color: #06a4b2;
+}
+
+.section10 {
+  margin: 0 auto;
+  width: 450px;
+  padding: 0;
 }
 
 .wrapper-head {
@@ -2797,7 +2805,6 @@ ul {
   .section07,
   .section08,
   .section09,
-  .section10,
   .section11,
   .section12,
   .section13,
@@ -2831,6 +2838,7 @@ ul {
 
   .section09 {
     margin-bottom: 75px;
+    padding: 0;
   }
 
   .section11 {
@@ -2878,7 +2886,6 @@ ul {
   .section07,
   .section08,
   .section09,
-  .section10,
   .section11,
   .section12,
   .section13,
@@ -3257,6 +3264,7 @@ ul {
     justify-content: flex-start;
     flex-wrap: wrap;
     position: relative;
+    padding-left: 0;
   }
 
   .section02__list::after {
@@ -3889,6 +3897,7 @@ ul {
   }
 
   .video-block__img {
+    width: 90%;
     margin: 0;
     padding: 0;
   }
@@ -4036,6 +4045,8 @@ ul {
 
   .section10 {
     margin-bottom: 20px;
+    width: 640px;
+    padding: 0;
   }
 
   .wrapper-head {
@@ -4185,13 +4196,13 @@ ul {
   .features-tender::before {
     height: 50px;
     width: 42px;
-    background-image: url("../images/768/section10_tender768.png");
+    background-image: url(../images/768/section10_tender768.png);
   }
 
   .features-tender::before {
     height: 50px;
     width: 58px;
-    background-image: url("../images/768/section10_tender768.png");
+    background-image: url(../images/768/section10_tender768.png);
   }
 
   .features-education::before {
@@ -4353,6 +4364,7 @@ ul {
     height: 20px;
     top: 4px;
     background-image: url(../images/768/slash.png);
+    background-repeat: no-repeat;
   }
 
   .top-block__headline {
@@ -5027,7 +5039,6 @@ ul {
   .section07,
   .section08,
   .section09,
-  .section10,
   .section11,
   .section12,
   .section13,
@@ -5863,6 +5874,8 @@ ul {
 
   .section10 {
     margin-bottom: 40px;
+    width: 715px;
+    padding: 0;
   }
 
   .wrapper-head {
@@ -6039,6 +6052,7 @@ ul {
     height: 21px;
     top: 2px;
     background-image: url(../images/1200/slash.png);
+    background-repeat: no-repeat;
   }
 
   .top-block__headline {
