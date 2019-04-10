@@ -1757,16 +1757,13 @@ ul {
 }
 
 .top-block__cost::before {
-  display: block;
-  position: absolute;
-  content: '';
   width: 9px;
-  height: 13px;
+  content: " ";
+  background-image: url(../images/480/slash.png);
+  position: absolute;
   left: 0;
   top: 0;
-  background-image: url(../images/480/slash.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 13px;
 }
 
 .top-block__headline {
@@ -3893,7 +3890,7 @@ ul {
 
   .video-block__img {
     margin: 0;
-    padding-left: 0;
+    padding: 0;
   }
 
   .video-block__text {
@@ -4363,7 +4360,6 @@ ul {
     margin-left: 0;
     font-size: 27px;
     line-height: 37.65px;
-    width: 274px;
     text-align: left;
   }
 
